@@ -20,3 +20,7 @@ int main(){
     total_mtime = hour_time * 60 + minute_time;
     total_step = average_step * total_mtime;
     distance = step_lenght * total_step / cm_TO_Km;
+
+    printf("the total distance was %.2f km\n", distance);
+
+}
