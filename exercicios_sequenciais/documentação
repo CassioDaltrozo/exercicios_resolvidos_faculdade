@@ -1,0 +1,29 @@
+1. Ler as coordenadas de dois pontos no plano cartesiano e imprimir a distância entre estes dois pontos. OBS: fórmula da distância entre dois pontos (x1,y1) e (x2, y2):
+
+2. Dado o preço de um produto em reais, converter este valor para o equivalente em dólares. O programa deverá ler o preço e a taxa de conversão para o dólar.
+
+3. Dados três valores, calcular e imprimir as médias aritmética e harmônica destes valores.
+
+4. Faça um programa para calcular e imprimir o salário bruto a ser recebido por um funcionário em um mês. O programa deverá utilizar os seguintes dados: número de horas que o funcionário trabalhou no mês, valor recebido por hora de trabalho e número de filhos com idade menor do que 14 anos (para adicionar o salário família).
+
+5. *[Algoritmos - A. I. Orth]* Escrever um algoritmo que lê o código da peça 1, o número de peças 1, o valor unitário da peça 1, o código da peça 2, o número de peças 2, o valor unitário da peça 2 e a percentagem de IPI a ser acrescentado e calcula o valor total a ser pago.
+
+6. *[Algoritmos - A. I. Orth]* O custo ao consumidor, de um carro novo, é a soma do custo de fábrica com a percentagem do distribuidor e dos impostos (aplicados ao custo de fábrica). Supondo que a percentagem do distribuidor seja de 28% e os impostos de 45%, escrever um algoritmo para ler o custo de fábrica de um carro e escrever o custo ao consumidor.
+
+7. Escrever um programa que calcule a resistência equivalente (Re) de um circuito elétrico composto de três resistores R1, R2, e R3 em paralelo. Os valores dos resistores deverão ser lidos pelo programa.
+
+8. Fazer um programa que leia uma temperatura fornecida em graus Farenheit e a converta para o seu equivalente em graus centígrados.
+
+9. *[Algoritmos – Salvetti & Barbosa]* Dado um número inteiro, obter seu último algarismo.
+
+10. *[Algoritmos – Salvetti & Barbosa]* Dado um número inteiro de 3 algarismos, inverter a ordem de seus algarismos. Os 3 algarismos do número dado são diferentes de zero.
+
+11. *[Algoritmos – Salvetti & Barbosa]* Dado um número de 3 algarismos, construir outro número de 4 algarismos, de acordo com a seguinte regra: a) os três primeiros algarismos, contados da esquerda para a direita, são iguais aos do número dado; b) o quarto algarismo é um dígito de controle calculado da seguinte forma: primeiro algarismo + segundo algarismo x 3 + terceiro algarismo x 5; o dígito de controle é igual ao resto da divisão dessa soma por 7.
+
+12. *[Algoritmos – Salvetti & Barbosa]* Dado um número inteiro que representa um número binário de cinco dígitos, determinar seu equivalente decimal.
+
+13. Transformar o valor correspondente a um intervalo temporal, expresso em horas, minutos e segundos, no valor correspondente em segundos.
+
+14. Escreva um programa que calcule o menor número de notas e de moedas que deve ser dado de troco para um pagamento efetuado. O programa deve ler o valor a ser pago e o valor efetivamente pago. Supor que o troco seja dado em notas de 50, 20 e 10 reais, nota ou moeda de 1 real, e em moedas de 50, 10, 5 e 1 centavos.
+
+15. Faça um programa que calcule o custo e o número de latas de tinta necessárias para a pintura de um tanque cilíndrico de combustível, sabendo que cada lata custa R$25,00, contém 5 litros de tinta e que cada litro pinta 3 metros quadrados. A altura e o raio do cilindro serão informados via teclado. Lembre-se que a área de um cilindro corresponde a:
