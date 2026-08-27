@@ -17,22 +17,22 @@ int main(){
         case 'A':
             if (quantity > limitA){
                 printf("you passed the limit of eggs, using as quantity %d.\n", limitA);
-                quantity = limitA;
-            final_price = priceA * quantity;}
+                quantity = limitA;}
+            final_price = priceA * quantity;
             break;
 
         case 'B':
             if (quantity > limitB){
                 printf("you passed the limit of eggs, using as quantity %d.\n", limitB);
-                quantity = limitB;
-            final_price = priceA * quantity;}
+                quantity = limitB;}
+            final_price = priceA * quantity;
             break;
 
         case 'C':
             if (quantity > limitC){
                 printf("you passed the limit of eggs, using as quantity %d.\n", limitC);
-                quantity = limitC;
-            final_price = priceA * quantity;}
+                quantity = limitC;}
+            final_price = priceA * quantity;
             break;
         }
 
