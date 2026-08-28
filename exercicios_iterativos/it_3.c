@@ -9,6 +9,8 @@ int main(){
 
     exp_value = exp(x);
 
+
+    //TAYLOR SERIES IN C
     for(int i = 0;; i++){
 
         term_count = i + 1;
