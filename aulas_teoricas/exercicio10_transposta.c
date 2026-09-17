@@ -2,6 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 
+/*Preencha (com números aleatórios de 1 a 99, supondo que a semente de números
+aleatórios seja 0) uma matriz quadrada (de inteiros) de ordem 10 e obtenha a sua
+transposta. Imprima as duas matrizes para averiguação.*/
+
 #define L 10
 #define C 10
 
