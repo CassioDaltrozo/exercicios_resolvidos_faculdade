@@ -66,5 +66,5 @@ float media_nprim(int N){
     for(int i = 1; i <= N; i++){
         qnt_nat++;
     }
-    return soma_num(N) / qnt_nat;
+    return (float)soma_num(N) / qnt_nat;
 }
