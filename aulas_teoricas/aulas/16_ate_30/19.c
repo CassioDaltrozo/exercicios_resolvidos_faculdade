@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#define MAX 10
+#define MAX 50
 
 typedef struct Atleta{
     char nome[MAX];
@@ -10,6 +10,7 @@ typedef struct Atleta{
 
 void le_atleta(char filename[]);
 void imprime_atleta(char filename[]);
+void limpabuffer();
 
 int main(){
     char nome[] = "aulas_teoricas/aulas/16_ate_30/19.bin";
@@ -42,11 +43,17 @@ void le_atleta(char filename[]){
 
     printf("digite uma altura: ");
     scanf("%f", &mano1.altura);
+    limpabuffer();
 
-    if(arq1 != NULL){
-        arq1 = fopen(filename, "w"); 
+    arq1 = fopen(filename, "wb"); 
+    if (arq1 != NULL){
         fwrite(&mano1, sizeof(Atleta), 1, arq1);
         fclose(arq1);
     }
 
+}
+
+void limpabuffer(){
+    int i;
+    while((i = getchar()) != '\n' && i != EOF);
 }
