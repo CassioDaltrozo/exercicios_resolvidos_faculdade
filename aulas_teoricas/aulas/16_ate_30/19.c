@@ -23,13 +23,17 @@ int main(){
 void imprime_atleta(char filename[]){
     FILE *arq;
     Atleta atleta_t;
+    int i;
 
     arq = fopen(filename, "rb");
 
     if (arq != NULL){
-        fread(&atleta_t, sizeof(atleta_t), 1, arq);
-        printf("atleta: %s\naltura : %.2f\n", atleta_t.nome, atleta_t.altura);
+       
+        while(fread(&atleta_t, sizeof(atleta_t), 1, arq) == 1){
+            printf("atleta: %s\naltura : %.2f\n", atleta_t.nome, atleta_t.altura);
+        }
         fclose(arq);
+
     }
 }
 
@@ -45,7 +49,7 @@ void le_atleta(char filename[]){
     scanf("%f", &mano1.altura);
     limpabuffer();
 
-    arq1 = fopen(filename, "wb"); 
+    arq1 = fopen(filename, "ab"); 
     if (arq1 != NULL){
         fwrite(&mano1, sizeof(Atleta), 1, arq1);
         fclose(arq1);
